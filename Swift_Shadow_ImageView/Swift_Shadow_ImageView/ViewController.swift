@@ -9,6 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var imageViewFromStoryboard: SwiftShadowImageView!
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+            
+        imageViewFromStoryboard.borderColor = .darkGray
+        imageViewFromStoryboard.imageShadowColor = .red
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +28,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
