@@ -31,7 +31,7 @@ Installation
 
 **Manual:**
 
-- drag 'n drop SwiftRoundView.swift file into your project.
+- drag 'n drop SwiftShadowImageView.swift file into your project.
 
 ----------
 
@@ -41,8 +41,9 @@ How to use
 **Storyboard:** 
 
 - Drag & drop a UIView to your Storyboard. 
-- Change its Class to SwiftRoundView 
+- Change its Class to SwiftShadowImageView 
 - Modify its values in the Attributes Inspector and watch your view change!!!!
+- If you need to change something in your code, drag an IBOutlet to your controller and then make your changes (as shown in project)
 
 ----------
 
