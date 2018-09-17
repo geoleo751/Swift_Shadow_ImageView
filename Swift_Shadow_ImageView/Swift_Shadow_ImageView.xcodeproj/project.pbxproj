@@ -12,6 +12,7 @@
 		96F57547214F9A7D00FC23C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F57545214F9A7D00FC23C9 /* Main.storyboard */; };
 		96F57549214F9A7E00FC23C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F57548214F9A7E00FC23C9 /* Assets.xcassets */; };
 		96F5754C214F9A7E00FC23C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F5754A214F9A7E00FC23C9 /* LaunchScreen.storyboard */; };
+		96F57555214F9AFD00FC23C9 /* SwiftShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F57554214F9AFD00FC23C9 /* SwiftShadowImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		96F57548214F9A7E00FC23C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96F5754B214F9A7E00FC23C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96F5754D214F9A7E00FC23C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F57554214F9AFD00FC23C9 /* SwiftShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftShadowImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,21 @@
 			children = (
 				96F57541214F9A7D00FC23C9 /* AppDelegate.swift */,
 				96F57543214F9A7D00FC23C9 /* ViewController.swift */,
+				96F57553214F9AC300FC23C9 /* Shadow Image View */,
 				96F57545214F9A7D00FC23C9 /* Main.storyboard */,
 				96F57548214F9A7E00FC23C9 /* Assets.xcassets */,
 				96F5754A214F9A7E00FC23C9 /* LaunchScreen.storyboard */,
 				96F5754D214F9A7E00FC23C9 /* Info.plist */,
 			);
 			path = Swift_Shadow_ImageView;
+			sourceTree = "<group>";
+		};
+		96F57553214F9AC300FC23C9 /* Shadow Image View */ = {
+			isa = PBXGroup;
+			children = (
+				96F57554214F9AFD00FC23C9 /* SwiftShadowImageView.swift */,
+			);
+			path = "Shadow Image View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F57555214F9AFD00FC23C9 /* SwiftShadowImageView.swift in Sources */,
 				96F57544214F9A7D00FC23C9 /* ViewController.swift in Sources */,
 				96F57542214F9A7D00FC23C9 /* AppDelegate.swift in Sources */,
 			);
