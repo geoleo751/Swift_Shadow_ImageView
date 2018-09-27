@@ -21,7 +21,7 @@ import UIKit
     
     // ImageView Attributes
     @IBInspectable var image: UIImage? { didSet {  layoutImage() } }
-    @IBInspectable var imageContentMode: UIViewContentMode = .scaleAspectFit { didSet { layoutImage() } }
+    @IBInspectable var imageContentMode: UIView.ContentMode = .scaleAspectFit { didSet { layoutImage() } }
     
     // Shadow Attributes
     @IBInspectable var imageShadowColor: UIColor = .black { didSet { dropShadow() } }
